@@ -35,11 +35,11 @@ namespace AlonWork_14
         public Cat (string name, string voice)
             :base (name)
         {
-            this.voice = voice;
+            this.voice = voice="Мяу";
         }
         public override void Say()
         {
-            Console.WriteLine("Мяу");
+            Console.WriteLine(voice);
         }
     }
 
@@ -56,11 +56,11 @@ namespace AlonWork_14
         public Dog(string name, string voice)
             : base(name)
         {
-            this.voice = voice;
+            this.voice = voice="Гав";
         }
         public override void Say()
         {
-            Console.WriteLine("Гав");
+            Console.WriteLine(voice);
         }
     }
 }
