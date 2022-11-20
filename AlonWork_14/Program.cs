@@ -11,10 +11,10 @@ namespace AlonWork_14
         static void Main(string[] args)
         {
             
-            Cat cat = new Cat("Алиса", voice);
+            Cat cat = new Cat("Алиса"/*, voice*/);
             cat.ShowInfo();
 
-            Dog dog = new Dog("Бэсси", voice);
+            Dog dog = new Dog("Бэсси"/*, voice*/);
             dog.ShowInfo();
             Console.ReadKey();
 

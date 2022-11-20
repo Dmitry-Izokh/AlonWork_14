@@ -32,10 +32,10 @@ namespace AlonWork_14
             get => name;
             set => name = value;
         }
-        public Cat (string name, string voice)
+        public Cat (string name/*, string voice*/)
             :base (name)
         {
-            this.voice = voice="Мяу";
+            this.voice = /*voice=*/"Мяу";
         }
         public override void Say()
         {
@@ -53,10 +53,10 @@ namespace AlonWork_14
             get => name;
             set => name = value;
         }
-        public Dog(string name, string voice)
+        public Dog(string name/*, string voice*/)
             : base(name)
         {
-            this.voice = voice="Гав";
+            this.voice = /*voice=*/"Гав";
         }
         public override void Say()
         {
